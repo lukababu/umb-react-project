@@ -1,0 +1,136 @@
+{
+  "cptCodes": [
+    {
+      "id": 1,
+      "code": "99213",
+      "description": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low complexity medical decision making. Counseling and/or coordination of care with other providers or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs."
+    },
+    {
+      "id": 2,
+      "code": "77067",
+      "description": "Screening mammography, bilateral (2-view study of each breast), including computer-aided detection (CAD) when performed."
+    },
+    {
+      "id": 3,
+      "code": "96372",
+      "description": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug); subcutaneous or intramuscular."
+    },
+    {
+      "id": 4,
+      "code": "90471",
+      "description": "Immunization administration (includes percutaneous, intradermal, subcutaneous, or intramuscular injections); 1 vaccine (single or combination vaccine/toxoid)."
+    },
+    {
+      "id": 5,
+      "code": "81002",
+      "description": "Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; non-automated, with microscopy."
+    }
+  ],
+  "costs": [
+    {
+      "id": 1,
+      "cptCodeId": 1,
+      "cost": 75,
+      "facilityType": "Outpatient Clinic",
+      "copay": 15
+    },
+    {
+      "id": 2,
+      "cptCodeId": 1,
+      "cost": 100,
+      "facilityType": "Urgent Care",
+      "copay": 20
+    },
+    {
+      "id": 3,
+      "cptCodeId": 1,
+      "cost": 125,
+      "facilityType": "Hospital Outpatient",
+      "copay": 25
+    },
+    {
+      "id": 4,
+      "cptCodeId": 2,
+      "cost": 150,
+      "facilityType": "Radiology Center",
+      "copay": 30
+    },
+    {
+      "id": 5,
+      "cptCodeId": 2,
+      "cost": 175,
+      "facilityType": "Hospital Outpatient",
+      "copay": 35
+    },
+    {
+      "id": 6,
+      "cptCodeId": 2,
+      "cost": 200,
+      "facilityType": "Independent Diagnostic Testing Facility",
+      "copay": 40
+    },
+    {
+      "id": 7,
+      "cptCodeId": 3,
+      "cost": 50,
+      "facilityType": "Physician's Office",
+      "copay": 10
+    },
+    {
+      "id": 8,
+      "cptCodeId": 3,
+      "cost": 75,
+      "facilityType": "Urgent Care",
+      "copay": 15
+    },
+    {
+      "id": 9,
+      "cptCodeId": 3,
+      "cost": 100,
+      "facilityType": "Hospital Outpatient",
+      "copay": 20
+    },
+    {
+      "id": 10,
+      "cptCodeId": 4,
+      "cost": 25,
+      "facilityType": "Pharmacy",
+      "copay": 5
+    },
+    {
+      "id": 11,
+      "cptCodeId": 4,
+      "cost": 50,
+      "facilityType": "Physician's Office",
+      "copay": 10
+    },
+    {
+      "id": 12,
+      "cptCodeId": 4,
+      "cost": 75,
+      "facilityType": "Urgent Care",
+      "copay": 15
+    },
+    {
+      "id": 13,
+      "cptCodeId": 5,
+      "cost": 25,
+      "facilityType": "Pharmacy",
+      "copay": 5
+    },
+    {
+      "id": 14,
+      "cptCodeId": 5,
+      "cost": 50,
+      "facilityType": "Physician's Office",
+      "copay": 10
+    },
+    {
+      "id": 15,
+      "cptCodeId": 5,
+      "cost": 75,
+      "facilityType": "Urgent Care",
+      "copay": 15
+    }
+  ]
+}
